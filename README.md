@@ -83,10 +83,10 @@ The full prompts are included in `zero_shot.ipynb` and `few_shot.ipynb`.
 `modeling.ipynb` builds transition matrices and directed graphs from the annotated corpus and computes:
 - Same-speaker and cross-speaker transition matrices
 - Matrices for corpus slices: general vs primary, Republican vs Democratic primaries, 1960-2004 vs 2008-2024
-- Structural graph metrics: weighted in-degree, self-loop strength, attraction ratio, edge asymmetry, reciprocity, eigenvector centrality
+- Structural graph metrics: weighted in-degree, self-loop strength, attraction ratio, edge asymmetry, reciprocity
 - Stationary distribution π and row entropy
 - Likelihood-ratio test for the first-order Markov assumption
-- Chi-square test of homogeneity (Anderson & Goodman 1957) for comparing matrices across groups
+- Chi-square test of homogeneity for comparing matrices across groups
 
 ---
 
